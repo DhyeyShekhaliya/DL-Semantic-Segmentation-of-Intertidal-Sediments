@@ -4,7 +4,7 @@ This repository contains the implementation for our research paper:
 
 > **"Deep Learning-Based Semantic Segmentation of Intertidal Flat Surface Sediments from Sentinel-2 Imagery at the Chandipur Coast, India"**
 >
-> Rhythm Shah, Pooja Gianchandani, et al.
+> Rhythm Shaha, Dhyey Shekhaliyaa, Pooja Shaha, Urbashi Sarkarb,c, Ratheesh Ramakrishnand, Jumee Dowaric
 >
 > *Procedia Computer Science, 2025* — International Conference on Machine Learning and Data Engineering (ICMLDE)
 
@@ -93,13 +93,6 @@ The superiority of DeepLabV3+ was confirmed to be **statistically significant** 
 unet/
 ├── deeplab.ipynb                    # DeepLabV3+ — training, evaluation & visualization
 ├── U-Net_7_Class_Training.ipynb     # U-Net — training, evaluation & visualization
-├── deeplab_chandipur_7class.h5      # Trained DeepLabV3+ model weights
-├── unet_chandipur_7class.h5         # Trained U-Net model weights
-├── deeplab_predictions.npy          # Saved DeepLabV3+ prediction arrays
-├── deeplab_pred_with_samples_*.jpg  # Prediction maps overlaid with in-situ samples
-├── feature_importance.jpg           # Feature importance visualization
-├── loocv_scatter.jpg                # Leave-One-Out CV scatter plot
-├── sample_image_mapping.csv         # Sample-to-image mapping reference
 ├── data/
 │   ├── images/                      # 5-band GeoTIFF satellite image patches
 │   └── masks/                       # Corresponding segmentation mask patches
@@ -143,7 +136,6 @@ pip install tensorflow rasterio numpy matplotlib scikit-learn
 
 1. Place your 5-band GeoTIFF image patches in `data/images/` and corresponding masks in `data/masks/`
 2. Open and run `deeplab.ipynb` or `U-Net_7_Class_Training.ipynb` to train, evaluate, and visualize predictions
-3. Pre-trained weights are available as `.h5` files for direct inference
 
 ---
 
