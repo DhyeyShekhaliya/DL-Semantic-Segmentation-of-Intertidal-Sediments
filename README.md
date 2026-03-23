@@ -143,16 +143,7 @@ pip install tensorflow rasterio numpy matplotlib scikit-learn
 
 If you use this work, please cite:
 
-```bibtex
-@article{shah2025deeplabv3,
-  title={Deep Learning-Based Semantic Segmentation of Intertidal Flat Surface Sediments from Sentinel-2 Imagery at the Chandipur Coast, India},
-  author={Shah, Rhythm and Gianchandani, Pooja and others},
-  journal={Procedia Computer Science},
-  year={2025},
-  publisher={Elsevier},
-  note={International Conference on Machine Learning and Data Engineering (ICMLDE)}
-}
-```
+
 
 ---
 
